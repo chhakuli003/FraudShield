@@ -1,0 +1,230 @@
+/* =========================
+   FRAUDSHIELD PRO
+   Professional CSS
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:linear-gradient(
+    135deg,
+    #667eea,
+    #764ba2,
+    #6a11cb,
+    #2575fc
+    );
+    background-size:400% 400%;
+    animation:gradientBG 10s ease infinite;
+    min-height:100vh;
+}
+
+/* Animated Background */
+
+@keyframes gradientBG{
+
+    0%{
+        background-position:0% 50%;
+    }
+
+    50%{
+        background-position:100% 50%;
+    }
+
+    100%{
+        background-position:0% 50%;
+    }
+
+}
+
+/* Navbar */
+
+.navbar{
+
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(10px);
+    box-shadow:0 4px 15px rgba(0,0,0,0.2);
+
+}
+
+.navbar-brand{
+
+    color:white !important;
+    font-size:24px;
+    font-weight:bold;
+
+}
+
+/* Glass Effect */
+
+.glass{
+
+    background:rgba(255,255,255,0.15);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:25px;
+
+    padding:30px;
+
+    box-shadow:0 8px 32px rgba(0,0,0,0.3);
+
+    color:white;
+
+}
+
+/* Cards */
+
+.card{
+
+    border:none;
+
+    border-radius:20px;
+
+    transition:0.4s;
+
+    box-shadow:0 4px 15px rgba(0,0,0,0.2);
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+/* Buttons */
+
+.btn-custom{
+
+    border-radius:30px;
+
+    padding:12px 30px;
+
+    font-weight:bold;
+
+    transition:0.4s;
+
+}
+
+.btn-custom:hover{
+
+    transform:scale(1.05);
+
+}
+
+/* Forms */
+
+.form-control{
+
+    border-radius:15px;
+
+    height:50px;
+
+    border:none;
+
+}
+
+.form-control:focus{
+
+    box-shadow:0 0 10px rgba(37,117,252,0.5);
+
+}
+
+/* Dashboard Cards */
+
+.stat-card{
+
+    color:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+}
+
+.total{
+    background:#2563eb;
+}
+
+.safe{
+    background:#16a34a;
+}
+
+.suspicious{
+    background:#f59e0b;
+}
+
+.fraud{
+    background:#dc2626;
+}
+
+/* Tables */
+
+.table{
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+}
+
+.table th{
+
+    background:#1e293b;
+
+    color:white;
+
+}
+
+/* Login/Register Box */
+
+.auth-box{
+
+    width:500px;
+
+    background:rgba(255,255,255,0.15);
+
+    backdrop-filter:blur(15px);
+
+    padding:40px;
+
+    border-radius:25px;
+
+    box-shadow:0 8px 32px rgba(0,0,0,0.3);
+
+    color:white;
+
+}
+
+/* Logo */
+
+.logo{
+
+    font-size:70px;
+
+    text-align:center;
+
+}
+
+/* Footer */
+
+.footer{
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+    margin-top:40px;
+
+}
